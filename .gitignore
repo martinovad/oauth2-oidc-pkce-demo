@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets — NEVER commit the real .env (the .env.example template is kept)
+.env
+.env.local
+.env.*.local
+
+# Production build
+frontend/build/
+
+# Logs & debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
